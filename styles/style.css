@@ -155,7 +155,7 @@
 .lots__card-list-item {
   flex-grow: 1;
   width: 334px;
-  min-height: 563px;
+  height: 563px;
 }
 
 .card {
