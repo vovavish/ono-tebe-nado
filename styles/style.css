@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 92px 52px 96px 50px;
+  padding: 92px 50px 96px 50px;
 }
 
 .header__menu {
@@ -11,6 +11,8 @@
 .header__links-list {
   display: flex;
   gap: 31px;
+  padding-top: 44px;
+  padding-bottom: 39px;
   list-style-type: circle;
 }
 
@@ -40,12 +42,15 @@
 }
 
 .address {
+  width: 240px;
   margin: auto 0;
   font-size: 18px;
   font-style: normal;
 }
 
 .header__address {
+  margin-top: 5px;
+  margin-bottom: 2px;
   margin-left: 194px;
 }
 
@@ -286,11 +291,11 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
   padding: 180px 50px 88px;
 }
 
 .footer__menu-list {
-  margin: 0 185px 0 220px;
   font-size: 18px;
   text-align: center;
   list-style-type: none;
