@@ -4,7 +4,7 @@
 }
 
 .header__menu {
-  margin: auto 36px auto 0;
+  margin: auto 45px auto 0;
   font-size: 18px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .header__logo-image {
-  width: 148px;
+  width: 129px;
   height: 105px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .header__address {
-  margin-left: 184px;
+  margin-left: 194px;
 }
 
 .address__link {
