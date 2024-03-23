@@ -287,7 +287,6 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
   padding: 180px 50px 88px;
 }
 
@@ -295,6 +294,7 @@
   font-size: 18px;
   text-align: center;
   list-style-type: none;
+  margin: 0 185px 0 220px;
 }
 .footer__menu-link {
   border-bottom: 1px solid currentColor;
