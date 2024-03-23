@@ -1,1 +1,37 @@
-/* место для вашего кода */
+.header {
+  padding: 92px 52px 96px 50px;
+  display: flex;
+}
+
+.header__menu {
+  font-size: 18px;
+  margin: auto 36px auto 0;
+}
+
+.header__links-list {
+  list-style-type: circle;
+  display: flex;
+  gap: 31px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+
+.address {
+  font-style: normal;
+  margin: auto 0;
+  line-height: 24px;
+  text-align: left;
+}
+
+.header__address {
+  margin-left: 184px;
+}
