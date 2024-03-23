@@ -29,6 +29,7 @@
 
 .header__link_active {
   border-bottom: none;
+  letter-spacing: 0;
 }
 
 .header__logo {
