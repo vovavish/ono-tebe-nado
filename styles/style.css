@@ -19,8 +19,8 @@
 }
 
 .header__link {
-  text-decoration: none;
   border-bottom: 1px solid currentColor;
+  text-decoration: none;
 }
 
 .header__link_active {
@@ -43,9 +43,9 @@
 }
 
 .address__link {
-  text-decoration: none;
-  line-height: 24px;
   border-bottom: 1px solid currentColor;
+  line-height: 24px;
+  text-decoration: none;
 }
 
 .cover {
@@ -125,6 +125,7 @@
   border: #fff solid 1px;
   padding: 12px 32px 11px 31px;
   color: #fff;
+  font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
@@ -191,9 +192,9 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 120%;
-  text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 3.6px;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -203,9 +204,77 @@
 
 .lots__look-more-link {
   display: inline-block;
+  margin-left: 40px;
+  border-bottom: 1px solid currentColor;
   padding-top: 32px;
-  margin-left: 32px;
   font-size: 20px;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+}
+
+.about {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 334px auto;
+  justify-items: center;
+  padding: 0 24px 180px 24px;
+}
+
+.about__column {
+
+}
+
+.about__column-logo {
+  padding-top: 36px;
+}
+
+.about__logo {
+  display: flex;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  margin: auto;
+}
+
+.about__title {
+  padding: 136px 0 100px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.about__text-letter-spacing-1 {
+  letter-spacing: 0.01em;
+}
+
+.about__text-letter-spacing-2 {
+  letter-spacing: 0.02em;
+}
+
+.about__text-letter-spacing-3 {
+  letter-spacing: 0.03em;
+}
+
+.about__text-letter-spacing-4 {
+  letter-spacing: 0.04em;
+}
+
+.about__text-letter-spacing-neg-1 {
+  letter-spacing: -0.01em;
 }
