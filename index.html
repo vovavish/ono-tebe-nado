@@ -24,7 +24,7 @@
           </li>
         </ul>
       </nav>
-      <a class="header__logo" href="#0">
+      <a class="header__logo">
         <img
           src="./images/logo-black.svg"
           alt="логотип оно тебе надо"
@@ -32,7 +32,7 @@
         />
       </a>
       <address class="address header__address">
-        <a href="tel:+70000000" class="address__link">+9 999 555 5555</a>
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
         <br />
         <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
@@ -49,13 +49,14 @@
             <span>те</span><span class="letter-spacing-extended">бе</span>
           </span>
           <span class="aligned-text_right accent-span">
-            <span class="letter-spacing-extended">н</span><span>ад</span><span class="no-letter-spacing">о</span>
+            <span class="letter-spacing-extended">н</span><span>ад</span
+            ><span class="no-letter-spacing">о</span>
           </span>
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </h2>
+          </p>
           <button class="bet-button">сделать ставку</button>
         </div>
       </section>
@@ -105,9 +106,8 @@
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков<span class="card__text-letter-spacing">...</span>
-                  Сколько бы вы на такое поставили, если бы не знали, что это —
-                  одна из революционных работ Кандинского?
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
                 </p>
               </article>
             </a>
@@ -118,64 +118,44 @@
       <section class="about">
         <div class="about__column-logo">
           <div class="about__logo">
-            <div class="about__logo-image">
-              <img src="./images/logo-white.svg" alt="логотип оно тебе надо" />
-            </div>
+            <img
+              src="./images/logo-white.svg"
+              alt="логотип оно тебе надо"
+              class="about__logo-image"
+            />
           </div>
         </div>
-        <div>
+        <article>
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
-              <span class="about__text-letter-spacing-1"
-                >Здесь вы не встретите очередное</span
-              >
-              пафосное собрание невероятно дорогого антиквариата.
-              <span class="about__text-letter-spacing-2">Наши</span>
-              <span class="about__text-letter-spacing-1">лоты вообще не</span>
-              должны
-              <span class="about__text-letter-spacing-neg-1">были попасть</span>
-              ни на один
-              <span class="about__text-letter-spacing-1">аукцион.</span>
-              Потому что кому нужен
-              <span class="about__text-letter-spacing-3">дневник</span>
-              девочки-подростка или картина, которую может
-              <span class="about__text-letter-spacing-2">нарисовать</span>
-              <span class="about__text-letter-spacing-1">даже</span>
-              ребёнок? Кому нужны
-              <span class="about__text-letter-spacing-1"
-                >все эти странные вещи, созданные</span
-              >
-              любителями?
+              Здесь вы не встретите очередное пафосное собрание невероятно
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
             </p>
             <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
-              время.В пух и прах растерзанные критиками. Непринятые и непонятые.
-              Когда-то
-              <span class="about__text-letter-spacing-4">они</span>
-              казались просто
-              <span class="about__text-letter-spacing-1">неудачными.</span>
-              Но, несмотря на критику, кажущуюся простоту или сложность, сейчас
-              без этих лотов невозможно
-              <span class="about__text-letter-spacing-1"
-                >представить современную культуру.</span
-              >
-              Когда в эти вещи не верил никто, продолжали верить
-              <span class="about__text-letter-spacing-1">их создатели.</span>
-              И сейчас эти лоты стали культовыми.
+              время. В пух и прах растерзанные критиками. Непринятые и
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих
+              лотов невозможно представить современную культуру. Когда в эти
+              вещи не верил никто, продолжали верить их создатели. И сейчас эти
+              лоты стали культовыми.
             </p>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
       <address class="address">
-        <a href="tel:+70000000" class="address__link">+9 999 555 5555</a>
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
         <br />
         <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
-      <nav>
+      <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li>
             <a class="footer__menu-link footer__menu-link_active" href="#0">
@@ -190,35 +170,49 @@
           </li>
         </ul>
       </nav>
-      <ul class="footer__social-list">
-        <li>
-          <a class="footer__social-link" href="#0">
-            <img
-              class="footer__social-icon"
-              src="./images/yt.svg"
-              alt="ссылка на Ютуб"
-            />
-          </a>
-        </li>
-        <li>
-          <a class="footer__social-link" href="#0">
-            <img
-              class="footer__social-icon"
-              src="./images/vk.svg"
-              alt="ссылка на Вконтакте"
-            />
-          </a>
-        </li>
-        <li>
-          <a class="footer__social-link" href="#0">
-            <img
-              class="footer__social-icon"
-              src="./images/pinterest.svg"
-              alt="ссылка на Пинтерест"
-            />
-          </a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="footer__social-list">
+          <li>
+            <a
+              class="footer__social-link"
+              href="#0"
+              target="_blank"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/yt.svg"
+                alt="ссылка на Ютуб"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer__social-link"
+              href="#0"
+              target="_blank"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/vk.svg"
+                alt="ссылка на Вконтакте"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer__social-link"
+              href="#0"
+              target="_blank"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/pinterest.svg"
+                alt="ссылка на Пинтерест"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
